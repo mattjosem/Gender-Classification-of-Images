@@ -16,15 +16,10 @@ out_dir = sys.argv[4]
 data_path = os.path.join(in_dir, '*g')
 img_folder = glob.glob(data_path)
 
-# read the training data
-df_profile = pd.read_csv('/Users/mattjosem/tcss455/training/profile/profile.csv')
-# df_profile = pd.read_csv('{}profile/profile.csv')
-profile = df_profile.loc[:, ['userid', 'gender']]
-
 # Constant to store the width and height of images
 PIC_SIZE = 100
 
-# will hold resized, greyscaled images, as well as gender.
+# will hold resized, greyscaled images, as well as image id.
 img_data = []
 
 # counter to show progress of image processing
