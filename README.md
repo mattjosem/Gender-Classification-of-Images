@@ -2,6 +2,8 @@
 
 #### How to run: 
 
+Install proper dependencies (python3, OpenCV, Tensorflow, Pandas).
+
 The command will be (using terminal):
 
 ```sh
