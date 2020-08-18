@@ -1,6 +1,6 @@
-This is a project utilizing a convolutional neural network and machine learning techniques/libraries to classify profile pictures based on the gender. The accuracy is higher when the image is of a single individual of decent quality.
+# This is a project utilizing a convolutional neural network and machine learning techniques/libraries to classify profile pictures based on the gender. The accuracy is higher when the image is of a single individual of decent quality.
 
-How to run: 
+## How to run: 
 
 	The command will be (using terminal):
 	python3 image_gender_classifier.py -i <input directory> -o <output directory> 
@@ -17,4 +17,4 @@ NOTE: The file structure of the training data was very specific, image’s file 
 saved_image_model.h5: 
 This is the saved model, generated when image_model.py is run. This is done so that every time images are being tested a new model is not trained every time. Having to retrain a model every instance images are to be tested increases computation time dramatically. 
 
-image_gender_classifier.py: This is the main image-testing script. Within, images are turned grayscale, facial detection is used to find strictly the faces within, and made uniform with the same pixel width and height. This is then put in the model to predict the gender of the image. Output is to the output directory from the command.eeaz
+image_gender_classifier.py: This is the main image-testing script. Within, images are turned grayscale, facial detection is used to find strictly the faces within, and made uniform with the same pixel width and height. This is then put in the model to predict the gender of the image. Output is to the output directory from the command
