@@ -1,4 +1,4 @@
-### This is a project utilizing a convolutional neural network and machine learning techniques/libraries to classify profile pictures based on the gender. The accuracy is higher when the image is of a single individual of decent quality.
+### This is a project utilizing a convolutional neural network and machine learning techniques/libraries to classify profile pictures based on the gender. The accuracy is higher when the image is of a single individual and of decent quality.
 
 #### How to run: 
 
