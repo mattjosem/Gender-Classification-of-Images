@@ -4,8 +4,10 @@
 
 The command will be (using terminal):
 
-	python3 image_gender_classifier.py -i <input directory> -o <output directory> 
-	
+```sh
+$ python3 image_gender_classifier.py -i <input directory> -o <output directory> 
+```
+
 > The input file must be a reachable directory with images to be tested. The output file must be an existing directory which the output xml files will be output. Each XML contains > the image’s predicted gender and the image’s file name without the file extension (you will be able to see which photo was classified via the file name).*
 
 #### lbpcascade-frontalface.xml: 
