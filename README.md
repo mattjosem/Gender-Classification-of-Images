@@ -1,4 +1,4 @@
-#### This is a project utilizing a convolutional neural network and machine learning techniques/libraries to classify profile pictures based on the gender. The accuracy is higher when the image is of a single individual of decent quality.
+### This is a project utilizing a convolutional neural network and machine learning techniques/libraries to classify profile pictures based on the gender. The accuracy is higher when the image is of a single individual of decent quality.
 
 #### How to run: 
 
@@ -11,6 +11,8 @@ $ python3 image_gender_classifier.py -i <input directory> -o <output directory>
 ```
 
 > The input file must be a reachable directory with images to be tested. The output file must be an existing directory which the output xml files will be output. Each XML contains > the image’s predicted gender and the image’s file name without the file extension (you will be able to see which photo was classified via the file name).
+
+### The individual file descritions
 
 #### lbpcascade-frontalface.xml: 
 This is strictly used with OpenCV in the scripts that require facial recognition to be used on images. 
